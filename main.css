@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+
+#greeting {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  color: white;
+  background-color: #eee;
+  text-shadow: 0 0 5px #333;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#form{
+  background-color: skyblue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#blue-background{
+  background-color: darkblue;
+  padding: 10px;
+}
+
+.form_text{
+  color: white;
+  margin: 5px 0px;
+}
+
+#messageInput{
+  height: 60px;
+  width: 800px;
+}
+
+button{
+  height: 2rem;
+}
+
+button:hover{
+  background-color: aqua;
+}
+
+#bnt2Img{
+  height: 13px;
+  width: 13px;
+  margin-right: 5px;
+}
+
+#randomButton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tweet__createdAt{
+  display: inline;
+  flex-grow: 1;
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+}
+
+.tweet__username{
+  font-weight: bold;
+}
+
+.tweet__message{
+  font-size: 12px;
+}
+
+.tweet__username:hover{
+  color: blue;
+}
+
+.white{
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  border-bottom: 2px solid gray;
+  line-height: 150%;
+  padding: 10px 10px 10px 0px;
+  position: relative;
+}
+
+#tweetlist{
+  border-bottom: none;
+}
+
+#tweetlist{
+  padding-top: 2px;
+}
+
+#tweetWrapper{
+  list-style: none;
+  padding-left: 15px;
+}
